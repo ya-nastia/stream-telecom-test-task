@@ -4,8 +4,6 @@ export const List = styled.div`
   display: flex;
   flex-direction: column;
   gap: 16px;
-
-  margin-top: 20px;
 `;
 
 export const ListItem = styled.div`

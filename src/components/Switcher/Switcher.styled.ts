@@ -5,6 +5,7 @@ export const Switcher = styled.div`
   align-items: center;
   gap: 6px;
 
+  margin-bottom: 20px;
   padding: 8px 10px;
 
   border-bottom: 1px solid #000000;
