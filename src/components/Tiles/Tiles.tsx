@@ -12,7 +12,7 @@ const Tiles: React.FC<ITilesProps> = ({ users }) => {
       {
         users.map(user => {
           return (
-            <S.TilesItem>
+            <S.TilesItem key={user.email}>
               <span>{user.name}</span>
               <span>{user.email}</span>
               <span>{user.phone}</span>

@@ -12,7 +12,7 @@ const List: React.FC<IListProps> = ({ users }) => {
       {
         users.map(user => {
           return (
-            <S.ListItem>
+            <S.ListItem key={user.email}>
               <span>{user.name}</span>
               <span>{user.email}</span>
               <span>{user.phone}</span>
